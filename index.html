@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src ="assets/js/script.js"></script>
+    </head>
+    
+    
+    <header class="showcase">
+        
+        <nav class="main-nav" id="main-nav">
+            <div class="content-wrapper-sm">
+             <a href="#" class="navbar-brand">NextLevel</a>
+             <div id="menu-button">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+             </div>
+             <ul class="nav-links">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#secao-projetos">Services</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+             </ul>
+            </div>
+           </nav>
+
+        <div class="content">
+          <img src="./assets/src/logo.png" class="logo" alt="NextLevel">
+          <div class="title">
+            Welcome To The Next Level
+          </div>
+          <div class="text">
+            Are you ready for an UPGRADE?
+          </div>
+        </div>
+      </header>
+    
+      <body>
+
+      <!-- Services -->
+      <section class="services" id="secao-projetos">
+
+        <div class="card_geral">
+          <ul>
+              <li class="card">
+                  <div class="image">
+                    <img src="./assets/src/desenvolvimento.png" class="logo" alt="NextLevel">
+                  </div>
+                  <div class="texto">
+                      <h3>Software Development</h3>
+                      <p>Level up your day by day with smart solutions.</p>
+                  </div>
+              </li>
+              <li class="card">
+                  <div class="image">
+                    <img src="./assets/src/consultoria.png" class="logo" alt="NextLevel">
+                  </div>
+                  <div class="texto">
+                      <h3>IT Consulting</h3>
+                      <p>Let's build your future togheter.</p>
+                  </div>
+              </li>
+              <li class="card">
+                  <div class="image">
+                    <img src="./assets/src/gestao.png" class="logo" alt="NextLevel">
+                  </div>
+                  <div class="texto">
+                      <h3>Project Management</h3>
+                      <p>Optmize your time, let us take of yours projects</p>
+                  </div>
+              </li>
+          </ul>
+        </div>  
+    </section>
+
+      <!-- About -->
+      <section class="about bg-light" id="about" >
+        <div class="container">
+          <div class="grid-2">
+            <div class="center">
+              <img src="./assets/src/logoB.png" class="logo" alt="NextLevel">
+            </div>
+            <div>
+              <h1>About Us</h1>
+              <h3>NextLevel was born from the desire to streamline processes using data engineering, in unison with Artificial Intelligence</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <section class="contact" id="contact">
+       <div class="contactContainer">
+        <form name="meu_form">
+
+          <h1>Entre em contato</h1>
+        
+          <input type="text" id="nomeid" placeholder="Digite seu nome" required="required" name="nome" minlength="3" class="inputs" />
+        
+        
+          <input type="tel" id="foneid" placeholder="Digite seu telefone" name="fone" minlength="9" class="inputs" />
+          
+        
+          <input type="email" id="emailid" placeholder="Digite seu email" name="email" minlength="4" class="inputs" />
+          
+        
+          <textarea placeholder="Deixe sua opnião"></textarea>
+        
+          <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+        </form>
+        </div>
+      </section>
+
+      </body> 
+
+      
+      
+      
+      <footer class="center bg-dark">
+        <p>NextLevel  &copy; 2024</p>
+      </footer>
+</html>
