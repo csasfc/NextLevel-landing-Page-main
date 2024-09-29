@@ -11,6 +11,6 @@ Este protótipo web foi proposto na matéria Advanced Programming & Mobile Dev d
 
 ## Alunos:
 
-### Bruno Tanaui Zanocco 85770
-### Caio Silva Alves 85350
-### Murilo José Cressoni 95267
+### Bruno Tanaui Zanocco: 85770
+### Caio Silva Alves: 85350
+### Murilo José Cressoni: 95267
